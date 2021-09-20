@@ -1,3 +1,7 @@
 * [Introduction](/ "Web DL Documentation")
+* [Screenshots](screenshots.md "Screenshots")
 * [Requirements](requirements.md "Requirements")
 * [Installation & usage](installation.md "Installation & usage")
+* [Configuration](configuration.md "Configuration")
+* [Upgrade](upgrade.md "Upgrade")
+* [Contribute](contribute.md "Contribute")

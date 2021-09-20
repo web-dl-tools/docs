@@ -4,7 +4,7 @@
 
 Web DL is developed to run on a [Raspberry Pi 4 (2GB+)](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/). Running on it on any other arm device should also be possible, although this hasn't been tested. For storage it's recommended to make use of an external USB drive or hard disk (not recommended for Raspberry Pi). 
 
-Web DL is developed on apple macOS, although small modifications have been made to the docker-compose.yml and Dockerfile files. You can refer to these files in the API repository to see what's required.
+Web DL is developed on apple macOS, although small modifications have been made to the _docker-compose.yml_ and _Dockerfile_ files in order to run the containers. You can refer to these files in the API repository to see what changes are required.
 
 ### Recommended requirements
 
@@ -29,7 +29,7 @@ Web DL is developed on apple macOS, although small modifications have been made 
 ## Software
 
 * [Git](https://git-scm.com/downloads)
-* [Docker Desktop](https://www.docker.com/products/docker-desktop)
+* [Docker Desktop](https://www.docker.com/products/docker-desktop)<sup>[2]</sup>
 * [Microsoft Visual Code](https://code.visualstudio.com/)<sup>[3]</sup>
 
 ### Minimum runtime environment
@@ -45,3 +45,11 @@ Web DL is developed on apple macOS, although small modifications have been made 
 can be installed as a valid substitute.
 
 <sup>[3]</sup>: A file editor is required in order to edit hidden dot files. Any other file editor capable of this should also suffice.
+
+## Development
+
+For development the Web DL Website requires the following software to be installed:
+
+* [Node.js](https://nodejs.org/en)
+* [Yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable)
+* Several additional packages installed via Yarn
