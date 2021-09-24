@@ -7,7 +7,7 @@ Web DL tools have been developed to update with a simply command. For that reaso
 
 ## Check for updates
 
-The website can check for updates for both the website and API. simply go to the build page (by clicking on the versions in the footer). An automatic check and version comparison will start. If there are any updates available you will be notified, with the version difference (patch, minor or major) as well as quick links to the update guide and a changelog.
+The website can check for updates for both the website and API. Simply go to the build page (by clicking on the versions in the footer). An automatic check and version comparison will start. If there are any updates available you will be notified, with the version difference (patch, minor or major) as well as quick links to the update guide and a change log.
 
 ## Updating
 

@@ -18,7 +18,7 @@ This will create two folders for the [api](https://github.com/web-dl-tools/api) 
 In order to perform actions on the containers both repositories contain make commands that simplify the usage of the stack. Simply enter one of the repositories via the command line and run the following commands:
 
 **Building**:
-Build the containers, install all dependacies and store the (intermediate) images.
+Build the containers, install all dependencies and store the (intermediate) images.
 
 ```bash
 $ make build
@@ -53,7 +53,7 @@ $ make clean
 Once the API and Website are both running you can simply go to the server address or IP address in any modern browser and Web DL will load. **Do make sure your firewall settings allow external access on port 80.**
 
 **Example**:
-Web DL is running on a local device with IP address _192.168.1.3_. You can use the following url to access Web DL.
+Web DL is running on a local device with IP address _192.168.1.3_. You can use the following URL to access Web DL.
 
 ```url
 http://192.168.1.3/
@@ -63,7 +63,7 @@ From there you can register a new user and login.
 
 ### As an admin
 
-In order manage Web DL users as an admin a seperate flow exists. First you need to create a superuser. You can do this by running the following command: _Make sure the API containers are running._
+In order manage Web DL users as an admin a separate flow exists. First you need to create a superuser. You can do this by running the following command: _Make sure the API containers are running._
 
 ```bash
 $ docker exec -it api_django_1 python3 manage.py createsuperuser
@@ -72,7 +72,7 @@ $ docker exec -it api_django_1 python3 manage.py createsuperuser
 This will access a container inside the API stack and run a command to create a new user. You will be prompted for the account details. After the superadmin has been created you can access the admin panel on port 8000. In addition to this you can still use your admin user as a regular user on the website.
 
 **Example**:
-Using the same scenario as above you can now use the following url to access the admin panel for Web DL.
+Using the same scenario as above you can now use the following URL to access the admin panel for Web DL.
 
 ```url
 http://192.168.1.3:8000/adminlogin/

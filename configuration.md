@@ -1,13 +1,13 @@
 # Configuration
 
-Configuration in both repositories is managed by an environment file. They will require some manual configuration to set Web DL up for your network situation. In order to perform these configuration you'll need a text editor with the ability to modify dot files. _These files are hidden/invisible by default in most operating systems._ it is recommended to use Microsoft Visual Code for this.
+Configuration in both repositories is managed by an environment file. They will require some manual configuration to set Web DL up for your network situation. In order to perform these changes you'll need a text editor with the ability to modify dot files. _These files are hidden/invisible by default in most operating systems._ It is recommended to use Microsoft Visual Code for this.
 
-## Enviroment file
+## Environment file
 
  A base example is provided in the
 repository as _.env.dist_. Please copy and rename this file to _.env_ and fill in the values.
 
-Both repositories require a _.env_ file on the root level of each folder. An base example file is provided in the
+Both repositories require a _.env_ file on the root level of each folder. A base example file is provided in the
 repository as _dist.env_.
 
 1. Copy and rename the example _dist.env_ file to _.env_.
