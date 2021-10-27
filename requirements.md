@@ -50,6 +50,6 @@ can be installed as a valid substitute.
 
 For development the Web DL Website requires the following software to be installed:
 
-* [Node.js](https://nodejs.org/en)
-* [Yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable)
+* [Node.js](https://nodejs.org/en) (LTS)
+* [Yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable) (Classic stable)
 * Several additional packages installed via Yarn
