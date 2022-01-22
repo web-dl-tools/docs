@@ -8,43 +8,40 @@ Web DL is developed on Apple macOS, although small modifications have been made 
 
 ### Recommended requirements
 
-* ARMv7 processor
+* ARMv7/x86 processor 
 * 2 GB memory or more
 * 1 GB of free disk space
 * Additional disk space for requests
 
 ###  Minimum requirements
 
-* ARMv7 processor
-* 1.5 GB memory
+* ARMv7/x86 processor
+* 1.2 GB memory
 * 1 GB of free disk space
 * Additional disk space for requests
 
 ## Operating System
 
 * Debian-based Linux distributions, such as [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/), [Ubuntu](https://ubuntu.com/raspberry-pi) and others
-* Apple macOS Mojave 10.14 or higher (Intel chip)<sup>[1]</sup>
+* Apple macOS Mojave 10.14 or higher
 * Microsoft Windows 10 Home/Pro 2004 (build 19041), Enterprise/Education 1909 (build 18363) or higher (64-bit)
 
 ## Software
 
 * [Git](https://git-scm.com/downloads)
-* [Docker Desktop](https://www.docker.com/products/docker-desktop)<sup>[2]</sup>
-* [Microsoft Visual Code](https://code.visualstudio.com/)<sup>[3]</sup>
+* [Docker Desktop](https://www.docker.com/products/docker-desktop)<sup>[1]</sup>
+* [Microsoft Visual Code](https://code.visualstudio.com/)<sup>[2]</sup>
 
 ### Minimum runtime environment
 
 * Docker 18.09.2 or higher
 * Docker Compose 1.23.2 or higher
 
-<sup>[1]</sup>: Docker Desktop for Mac on Apple Silicon is available but requires a
-[manual installation of Rosetta 2](https://docs.docker.com/docker-for-mac/apple-silicon/#system-requirements).
-
-<sup>[2]</sup>: On lower versions of macOS, Windows, or on Linux, the
+<sup>[1]</sup>: On lower versions of macOS, Windows, or on Linux, the
 [Docker Engine](https://hub.docker.com/search?offering=community&operating_system=linux&q=&type=edition)
 can be installed as a valid substitute.
 
-<sup>[3]</sup>: A file editor is required in order to edit hidden dot files. Any other file editor capable of this should also suffice.
+<sup>[2]</sup>: A file editor is required in order to edit hidden dot files. Any other file editor capable of this should also suffice.
 
 ## Development
 
