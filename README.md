@@ -36,8 +36,6 @@ It's the **sole requirement to run Web DL**.
 
 ## Quick start
 
-Please review the requirements, installation and config steps if errors occur when running these steps.
-
 ```bash
 $ git clone git@github.com:web-dl-tools/api.git
 $ cd ./api
@@ -51,3 +49,5 @@ $ cd ./website
 // Fill in .env file
 $ make start
 ```
+
+Please review the [requirements](https://web-dl-tools.github.io/docs/#/requirements), [installation](https://web-dl-tools.github.io/docs/#/installation) and [configuration](https://web-dl-tools.github.io/docs/#/configuration) steps for for additional information and troubleshooting.

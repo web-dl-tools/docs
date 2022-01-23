@@ -66,7 +66,7 @@ From there you can register a new user and login.
 In order manage Web DL users as an admin a separate flow exists. First you need to create a superuser. You can do this by running the following command: _Make sure the API containers are running._
 
 ```bash
-$ docker exec -it api_django_1 python3 manage.py createsuperuser
+$ docker exec -it web-dl_django python3 manage.py createsuperuser
 ```
 
 This will access a container inside the API stack and run a command to create a new user. You will be prompted for the account details. After the superadmin has been created you can access the admin panel on port 8000. In addition to this you can still use your admin user as a regular user on the website.
