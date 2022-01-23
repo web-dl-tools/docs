@@ -4,7 +4,7 @@
 
 Web DL is developed to run on a [Raspberry Pi 4 (2 GB+)](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/). Running on it on any other arm device should also be possible, although this hasn't been tested. For storage, it's recommended to make use of an external USB drive or hard disk (not recommended for Raspberry Pi). 
 
-Web DL is currently developed on Apple macOS with an Apple Silicon (ARM) processor. In order to run the stack on x86 small modifications should be made to the _docker-compose.yml_ and _Dockerfile_ files of the API repository in order to run the containers. You can refer to these files to see what changes are required.
+Web DL is currently developed on Apple macOS with an Apple Silicon (ARM) processor. In order to run the stack on x86 small modifications should be made to the [_Dockerfile_](https://github.com/web-dl-tools/api/blob/master/compose/selenium/Dockerfile) file of the API repository in order to run the containers. You can refer to this file to see what changes are required.
 
 ### Recommended requirements
 

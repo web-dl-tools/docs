@@ -22,7 +22,7 @@ For a single user Mac system the user id is often _501_.
 ```bash
 $ id -u
 ```
-For a single user Linux system the user id is often _1000.
+For a single user Linux system the user id is often _1000_.
 
 
 ## Properties
