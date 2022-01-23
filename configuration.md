@@ -6,19 +6,24 @@ Configuration in both repositories is managed by an environment file. They will 
 
  A base example is provided in the repositories as _.env.dist_. Please copy and rename this file to _.env_ and fill in the values.
 
-1. Copy and rename the example _dist.env_ file to _.env_.
-2. Fill in the empty values in the _.env_ file.
-
 ## User ID
 
-In order to properly set permissions and manage folder access for the downloaded files Web DL needs to be aware of the user ID of the user in which's home directory Web DL is installed. Below you can find out how to find the user ID for your operating system. Please enter the following commands in a console:
+In order to properly set permissions and manage folder access for the downloaded files Web DL needs to be aware of the user ID of the user in which's home directory Web DL is installed. Below you can find out how to find the user ID for your operating system. Please enter the following command in a console:
 
-### Apple macOS/Ubuntu/Raspbian/UNIX based operating systems
+### Apple macOS
 
 ```bash
 $ id -i
 ```
-For a single user Mac system the user id is often _501_. On Linux it's often _1000_.
+For a single user Mac system the user id is often _501_.
+
+### Ubuntu/Raspbian/UNIX based operating systems
+
+```bash
+$ id -u
+```
+For a single user Linux system the user id is often _1000.
+
 
 ## Properties
 
