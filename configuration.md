@@ -40,7 +40,7 @@ Below you can find a description and required status for all current properties.
 
 | Property              | Description                                         | Required | Example                                               |
 |-----------------------|-----------------------------------------------------|----------|-------------------------------------------------------|
-| **USER_ID**           | The user ID of owner the files folder               | Yes      | 501                                                   |
+| **USER_ID**           | The user ID of the owner of the files folder        | Yes      | 501                                                   |
 | **FILES_PATH**        | The path of the files folder                        | Yes      | ./files                                               |
 | **DJANGO_DEBUG**      | Enable/disable Django debug mode                    | Yes      | False                                                 |
 | **DJANGO_SECRET_KEY** | Key used by Django to provide cryptographic signing | Yes      | someSecureDjangoSecretkeyFromhttps://djecrety.ir      |

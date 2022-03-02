@@ -63,7 +63,7 @@ From there you can register a new user and login.
 
 ### As an admin
 
-In order manage Web DL users as an admin a separate flow exists. First you need to create a superuser. You can do this by running the following command: _Make sure the API containers are running._
+In order to manage Web DL users as an admin a separate flow exists. First you need to create a superuser. You can do this by running the following command: _Make sure the API containers are running._
 
 ```bash
 $ docker exec -it web-dl_django python3 manage.py createsuperuser
