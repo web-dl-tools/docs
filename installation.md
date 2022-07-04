@@ -7,8 +7,8 @@ Web DL tools have been developed to run fully inside docker containers. For that
 It is recommended to clone the repositories to your home directory due to how Docker manages file/folder permissions on Linux. Please open (a folder inside) your home directory via the terminal and run the following commands:
 
 ```bash
-$ git clone git@github.com:web-dl-tools/api.git
-$ git clone git@github.com:web-dl-tools/website.git
+$ git clone https://github.com/web-dl-tools/api.git
+$ git clone https://github.com/web-dl-tools/website.git
 ```
 
 This will create two folders for the [api](https://github.com/web-dl-tools/api) and [website](https://github.com/web-dl-tools/website) repositories. Both folders will contain a valid origin remote enabling automatic updates via the command line.

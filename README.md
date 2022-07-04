@@ -37,14 +37,14 @@ It's the **sole requirement to run Web DL**.
 ## Quick start
 
 ```bash
-$ git clone git@github.com:web-dl-tools/api.git
+$ git clone https://github.com/web-dl-tools/api.git
 $ cd ./api
 // Fill in .env file
 $ make start
 ```
 
 ```bash
-$ git clone git@github.com:web-dl-tools/website.git
+$ git clone https://github.com/web-dl-tools/website.git
 $ cd ./website
 // Fill in .env file
 $ make start
