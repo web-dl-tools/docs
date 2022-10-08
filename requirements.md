@@ -23,8 +23,9 @@ Web DL is currently developed on Apple macOS with an Apple Silicon (ARM64) proce
 ## Operating System (64-bit)
 
 * Debian-based Linux distributions, such as [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)<sup>[1]</sup>, [Ubuntu](https://ubuntu.com/raspberry-pi) and others
-* Apple macOS Mojave 10.14 or higher
-* Microsoft Windows 10 Home/Pro 2004 (build 19041), Enterprise/Education 1909 (build 18363) or higher (64-bit)
+* Apple macOS Mojave 10.15 or higher
+* Microsoft Windows 11 Home/Pro/Enterprise/Education version 21H2 or higher
+* Microsoft Windows 10 Home/Pro version 21H1 or higher, Enterprise/Education version 20H2 or higher.
 
 ## Software
 
@@ -45,7 +46,7 @@ For development the Web DL Website requires the following software to be install
 * [Yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable) (Classic stable)
 * Several additional packages installed via Yarn
 
-<sup>[1]</sup>: Raspberry Pi promotes their 32-bit image higher on their page and in the image tool. Make sure you select the 64-bit image.
+<sup>[1]</sup>: Raspberry Pi promotes their 32-bit image higher on the page and in the image tool. Make sure you download/select the 64-bit image.
 
 <sup>[2]</sup>: On lower versions of macOS, Windows, or on Linux, the
 [Docker Engine](https://hub.docker.com/search?offering=community&operating_system=linux&q=&type=edition)
