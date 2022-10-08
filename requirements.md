@@ -8,45 +8,47 @@ Web DL is currently developed on Apple macOS with an Apple Silicon (ARM64) proce
 
 ### Recommended requirements
 
-* ARMv7+ processor 
+* ARMv8 processor (64-bit)
 * 2 GB memory or more
 * 500 MB of free disk space
 * Additional disk space for requests
 
 ###  Minimum requirements
 
-* ARMv7+ processor
+* ARMv7+ processor (64-bit)
 * 1.2 GB memory
 * 200 MB of free disk space
 * Additional disk space for requests
 
-## Operating System
+## Operating System (64-bit)
 
-* Debian-based Linux distributions, such as [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/), [Ubuntu](https://ubuntu.com/raspberry-pi) and others
+* Debian-based Linux distributions, such as [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)<sup>[1]</sup>, [Ubuntu](https://ubuntu.com/raspberry-pi) and others
 * Apple macOS Mojave 10.14 or higher
 * Microsoft Windows 10 Home/Pro 2004 (build 19041), Enterprise/Education 1909 (build 18363) or higher (64-bit)
 
 ## Software
 
 * [Git](https://git-scm.com/downloads)
-* [Docker Desktop](https://www.docker.com/products/docker-desktop)<sup>[1]</sup>
-* [Microsoft Visual Code](https://code.visualstudio.com/)<sup>[2]</sup>
+* [Docker Desktop](https://www.docker.com/products/docker-desktop)<sup>[2]</sup>
+* [Microsoft Visual Code](https://code.visualstudio.com/)<sup>[3]</sup>
 
 ### Minimum runtime environment
 
 * Docker 18.09.2 or higher
 * Docker Compose 1.23.2 or higher
 
-<sup>[1]</sup>: On lower versions of macOS, Windows, or on Linux, the
-[Docker Engine](https://hub.docker.com/search?offering=community&operating_system=linux&q=&type=edition)
-can be installed as a valid substitute.
-
-<sup>[2]</sup>: A file editor is required in order to edit hidden dot files. Any other file editor capable of this should also suffice.
-
-## Development
+### Development
 
 For development the Web DL Website requires the following software to be installed:
 
 * [Node.js](https://nodejs.org/en) (LTS)
 * [Yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable) (Classic stable)
 * Several additional packages installed via Yarn
+
+<sup>[1]</sup>: Raspberry Pi promotes their 32-bit image higher on their page and in the image tool. Make sure you select the 64-bit image.
+
+<sup>[2]</sup>: On lower versions of macOS, Windows, or on Linux, the
+[Docker Engine](https://hub.docker.com/search?offering=community&operating_system=linux&q=&type=edition)
+can be installed as a valid substitute.
+
+<sup>[3]</sup>: A file editor is required in order to edit hidden dot files. Any other file editor capable of this should also suffice.
