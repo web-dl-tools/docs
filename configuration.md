@@ -35,6 +35,7 @@ Below you can find a description and required status for all current properties.
 |------------------------|---------------------------------------|----------|-------------------------------------------------------|
 | **VUE_APP_API_URL**    | The URL of the Web DL API             | Yes      | http://localhost:8000/api/                            |
 | **VUE_APP_SENTRY_DSN** | The DSN URL for Sentry error tracking | No       | https://1234567890abcdef@12345.ingest.sentry.io/67890 |
+| **FILES_PATH**         | The path of the files folder          | Yes      | ../api/files                                               |
 
 #### API
 
