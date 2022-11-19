@@ -10,14 +10,14 @@ Configuration in both repositories is managed by an environment file. They will 
 
 In order to properly set permissions and manage folder access for the downloaded files Web DL needs to be aware of the user ID of the user in which's home directory Web DL is installed. Below you can find out how to find the user ID for your operating system. Please enter the following command in a console:
 
-### Apple macOS
+#### Apple macOS
 
 ```bash
 $ id -i
 ```
 For a single user Mac system the user id is often _501_.
 
-### Ubuntu/Raspbian/UNIX based operating systems
+#### Ubuntu/Raspbian/UNIX based operating systems
 
 ```bash
 $ id -u
@@ -33,7 +33,7 @@ Below you can find a description and required status for all current properties.
 
 | Property               | Description                           | Required | Example                                               |
 |------------------------|---------------------------------------|----------|-------------------------------------------------------|
-| **VUE_APP_API_URL**    | The URL of the Web DL API             | Yes      | http://localhost:8000/api/                            |
+| **VUE_APP_API_URL**    | The URL of the Web DL API             | Yes      | http://192.168.1.3:8000/api/                            |
 | **VUE_APP_SENTRY_DSN** | The DSN URL for Sentry error tracking | No       | https://1234567890abcdef@12345.ingest.sentry.io/67890 |
 | **FILES_PATH**         | The path of the files folder          | Yes      | ../api/files                                               |
 
